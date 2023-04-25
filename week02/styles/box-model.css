@@ -1,22 +1,21 @@
 .callout {
     max-width: 455px;
-    max-height: 340px;
     margin: 20px 0px 15px 6px;
     border: solid rgb(250, 246, 246) 7px;
     padding: 17px 20px 0px 1px;
 	background-color: #293b75;
     color: whitesmoke;
-    font-size: 19.5;
+    font-size: 14.5pt;
 }
 
 .callout img {
     float: right;
-    margin: 3px 0px 19px 30px;
+    margin: 3px 0px 23.5px 26.5px;
     border: solid black 1px;
     padding: 3px;
     background-color: lightgrey;
-    width: 107px;
-    height: 140px;
+    width: 107;
+    height: 140;
 	
 }
 
