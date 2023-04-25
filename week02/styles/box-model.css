@@ -1,0 +1,33 @@
+.callout {
+    max-width: 75%;
+    margin: 10px;
+    border: solid rgb(250, 246, 246) 7px;
+    padding: 10px;
+	background-color: #293b75;
+    color: whitesmoke;
+    font-size: 18;
+}
+
+.callout img {
+    float: right;
+    margin: 6px;
+    border: solid black 1px;
+    padding: 3px;
+    background-color: lightgrey;
+	
+}
+
+blockquote {
+    margin: 15px;
+	
+}
+
+cite {
+    display: flex;
+    border-top: dotted white 1px;
+    padding-top: 3px;
+    text-align: right;
+    font-size: 12pt;
+    justify-content: end;
+	
+}
