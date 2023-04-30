@@ -18,22 +18,30 @@
 * {
     margin: 1em;
     padding: 1em;
+    max-width: 1400px;
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
+    font-family: var(--paragraph-font);
 }
+
+h1, h2 {
+    font-family: var(--heading-font);
+}
+
 body {
     background-color: var(--accent2-color);
     font-size: 16px;
     line-height: 1.5;
 }
+
 .hero {
     position: relative;
     max-width: 1200px;  
-    margin: 0 auto;
+    margin: 0;
 }
 
 .hero h1 {
     position: absolute;    
-    font-family: var(--heading-font);
-    color: var(--primary-color);
     font-size: 50px;
     top: 50%;
     left: 50%;
@@ -59,43 +67,41 @@ article {
     padding: 2rem;
     position: absolute;
     box-sizing: border-box;
-    background-color: var(--accent2-color);
+    background-color: var(--accent1-color);
     opacity: 0.7;
     transform: translate(-50%, -50%);
     top: 60%;
     left: 50%;
     width: 70%;
+    border: solid black 1px;
 }
 
 article img {
     position: absolute;
     float: right;
     max-width: 40%;
+    opacity: 100;
+
 }
 
 article p{
-    font-family: var(--paragraph-font);
-    color: var(--secondary-color);
     font-size: 1.2rem;
     line-height: 1.5;
-}
-
-.sociallinks {
-    text-decoration: none;
-    text-decoration: none; 
-    text-decoration: none; 
-    text-decoration: none; 
-   
 }
 
 .history {
     margin: 2em;
     padding: 1em;
-    background-color: aqua;
+    background-color: var(--accent1-color);
 }
 
 .adventure {
     margin: 2em;
     padding: 1em;
     background-color: #0f084b;
+}
+
+.sociallinks {
+    text-decoration: none; 
+    border: var(--accent2-color); 
 }
