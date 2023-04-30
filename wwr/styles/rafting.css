@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand:wght@500&family=Sigmar&family=Vina+Sans&display=swap');
+
+:root{
+    --primary-color: #c2e7d9;
+    --secondary-color: #3e92cc;
+    --accent1-color: #0f084b;
+    --accent2-color: #f7f7f2;
+    
+    --heading-font: Sigmar, "Vina Sans", cursive;
+    --paragraph-font: Quicksand, Poppins, sans-serif;
+    
+    --nav-background-color: black;
+    --nav-link-color: silver;
+    --nav-hover-link-color: darkgray;
+    --nav-hover-background-color: pink;
+}    
+
+* {
+    margin: 1em;
+    padding: 1em;
+}
+body {
+    background-color: var(--accent2-color);
+    font-size: 16px;
+    line-height: 1.5;
+}
+.hero {
+    position: relative;
+    max-width: 1200px;  
+    margin: 0 auto;
+}
+
+.hero h1 {
+    position: absolute;    
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -550%);
+    z-index: 1;
+    width: 1126px;
+    background-color: rgba(0, 0, 0, .4);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+article {
+    margin: 20px;  
+    padding: 2rem;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: var(--accent2-color);
+    opacity: 0.7;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+    width: 70%;
+}
+
+article img {
+    position: absolute;
+    float: right;
+    max-width: 40%;
+}
+
+article p{
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.sociallinks {
+    text-decoration: none;
+    text-decoration: none; 
+    text-decoration: none; 
+    text-decoration: none; 
+   
+}
+
+.history {
+    margin: 2em;
+    padding: 1em;
+    background-color: aqua;
+}
+
+.adventure {
+    margin: 2em;
+    padding: 1em;
+    background-color: #0f084b;
+}

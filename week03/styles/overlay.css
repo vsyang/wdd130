@@ -36,6 +36,7 @@ h2 {
 	box-shadow: 0 0 30px #111;
 	opacity: 0.8;
 	transform: translate(-850%,190%);
+	object-fit: cover;
 }
 
 h3 {
