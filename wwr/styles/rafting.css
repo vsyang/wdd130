@@ -24,6 +24,27 @@
     font-family: var(--paragraph-font);
 }
 
+header {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 1fr;
+
+}
+
+header img {
+    justify-self: center;
+}
+
+
+
+button {
+    text-decoration: none;
+    border: solid #c2e7d9;
+    display: absolute;
+    margin: 0;
+
+}
+
 h1, h2 {
     font-family: var(--heading-font);
 }
@@ -104,4 +125,20 @@ article p{
 .sociallinks {
     text-decoration: none; 
     border: var(--accent2-color); 
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
