@@ -35,14 +35,19 @@ header img {
     justify-self: center;
 }
 
+.navigation {
+    display: flex;
+    list-style: none;
+}
 
+.navigation li {
+	flex: 1 1 100%;
+}
 
-button {
-    text-decoration: none;
+.navigation a {
     border: solid #c2e7d9;
-    display: absolute;
-    margin: 0;
-
+    display: block;
+    padding: 20px;
 }
 
 h1, h2 {
@@ -50,6 +55,8 @@ h1, h2 {
 }
 
 body {
+    display: flex;
+    justify-content: center;
     background-color: var(--accent2-color);
     font-size: 16px;
     line-height: 1.5;
