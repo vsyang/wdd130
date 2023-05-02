@@ -158,14 +158,21 @@ article p{
     width: 100px;
 }
 
+/* footer {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    justify-items: end;
+} */
+
 .sociallinks {
     text-decoration: none; 
     border: var(--accent2-color); 
+    display: grid;
+    grid-template: 1fr / 1fr;
+    justify-items: end;
 }
 
-footer {
-    grid-row: 5;
-}
+
 a:link {
     text-decoration: none;
 }
@@ -182,4 +189,4 @@ a:active {
     text-decoration: none;
 }
 
-/* will need to update class history with an image and fix image sizing in class adventure  */
+/* will need to update class history with an image and fix image sizing in class adventure also fix footer */
