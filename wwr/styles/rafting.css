@@ -16,12 +16,19 @@
 }    
 
 * {
-    margin: 1em;
+    margin: 1em auto;
     padding: 1em;
     max-width: 1400px;
     color: var(--primary-color);
     background-color: var(--accent1-color);
     font-family: var(--paragraph-font);
+    text-align: center;
+}
+
+body {
+    background-color: var(--accent2-color);
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 header {
@@ -39,6 +46,9 @@ header img {
 .navigation {
     display: flex;
     list-style: none;
+    color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
+    background: none;
 }
 
 .navigation a {
@@ -48,7 +58,8 @@ header img {
 }
 
 .navigation a:hover {
-    color: var(--secondary-color);
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
     font-weight: 700;
     text-decoration: underline;
 }
@@ -57,16 +68,16 @@ h1, h2 {
     font-family: var(--heading-font);
 }
 
-body {
-    background-color: var(--accent2-color);
-    font-size: 16px;
-    line-height: 1.5;
+main {
+    display: grid;
 }
 
 .hero {
+    display: grid;
     position: relative;
     max-width: 1000px;  
     margin: 0;
+    /* start here to fix this section */
 }
 
 .hero h1 {
@@ -78,7 +89,6 @@ body {
     z-index: 1;
     width: 1126px;
     background-color: rgba(0, 0, 0, .4);
-    text-align: center;
     margin: 0;
     padding: 0;
     border: 0;
@@ -116,18 +126,36 @@ article img {
 article p{
     font-size: 1.2rem;
     line-height: 1.5;
+    text-align: left;
 }
 
 .history {
+    display: grid;
+    gap: 20px;
     margin: 2em;
     padding: 1em;
     background-color: var(--accent1-color);
 }
 
 .adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: 1fr 1fr;
     margin: 2em;
     padding: 1em;
     background-color: #0f084b;
+}
+
+.adventure h2 {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.adventure img {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    justify-self: center;
+    width: 100px;
 }
 
 .sociallinks {
@@ -135,6 +163,9 @@ article p{
     border: var(--accent2-color); 
 }
 
+footer {
+    grid-row: 5;
+}
 a:link {
     text-decoration: none;
 }
@@ -150,3 +181,5 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+
+/* will need to update class history with an image and fix image sizing in class adventure  */
