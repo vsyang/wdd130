@@ -140,7 +140,7 @@ article p{
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 20%);
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 90px 1fr;
     margin: 2em;
     padding: 1em;
     background-color: #0f084b;
@@ -155,23 +155,21 @@ article p{
     grid-row-start: 2;
     grid-row-end: 4;
     justify-self: center;
-    width: 100px;
+    width: 150px;
 }
 
-/* footer {
-    display: grid;
-    grid-template: 1fr / 1fr;
-    justify-items: end;
-} */
+footer {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    align-items: center;
+}
 
 .sociallinks {
     text-decoration: none; 
     border: var(--accent2-color); 
-    display: grid;
-    grid-template: 1fr / 1fr;
-    justify-items: end;
+    display: block;
 }
-
 
 a:link {
     text-decoration: none;
@@ -188,5 +186,3 @@ a:hover {
 a:active {
     text-decoration: none;
 }
-
-/* will need to update class history with an image and fix image sizing in class adventure also fix footer */
