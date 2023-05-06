@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 130 | HTMl Form - User Poll</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 <body>
     <header>
@@ -14,22 +15,37 @@
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
-                <label for="fullname">Full Name: <input type="text" name="fullname"></label>
-                <label for="email">Email: <input type="email" name="username"></label>
+                    <div class="form-item, form-item column2">
+                        <label for="fullname">Full Name:</label> 
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    
+                    <div class="form-item column2">
+                        <label for="email">Email: </label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>    
             </fieldset>
             
             <fieldset>
                 <legend>Questions</legend>
-                <label for="browser">What is your favorite browser?</label>
-                <select id="browser" name="browser">
-                    <option value="chrome">Chrome</option>
-                    <option value="safari">Safari</option>
-                    <option value="firefox">firefox</option>
-                </select>
-                <label for="pet">Do you have a household pet?</label>
-                <input type="checkbox" id="pet" name="pet">
-                <label for="feedback">List the places you have lived: </label>
-                <textarea id="feedback" name="feedback" rows="4" placeholder="Denver Colorado, Aurora Colorado, Thornton Colorado, Northglenn Colorado"></textarea>
+                    <div class="form-item column1">
+                        <label for="browser">What is your favorite internet browser?</label>
+                        <select id="browser" name="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="safari">Safari</option>
+                        <option value="firefox">firefox</option>
+                        </select>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="pet">Do you have a household pet?</label>
+                        <input type="checkbox" id="pet" name="pet">
+                    </div>
+                    <div class="feedback-label">
+                        <label for="feedback">List the places you have lived: </label> 
+                    </div>        
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Denver Colorado, Aurora Colorado, Thornton Colorado, Northglenn Colorado"></textarea>
+                    
+
             </fieldset>
             <button type="submit">Submit Poll</button>
         </form>
