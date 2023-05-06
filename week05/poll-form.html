@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTMl Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Vanessa Yang | HTML Form - User Poll</h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name: <input type="text" name="fullname"></label>
+                <label for="email">Email: <input type="email" name="username"></label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite browser?</label>
+                <select id="browser" name="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="safari">Safari</option>
+                    <option value="firefox">firefox</option>
+                </select>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the places you have lived: </label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Denver Colorado, Aurora Colorado, Thornton Colorado, Northglenn Colorado"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+
+</body>
+    <footer>
+        ©️2023 🐶 HTML Form - User Poll Activity 🐶 Vanessa Yang
+    </footer>
+</html>
