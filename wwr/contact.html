@@ -18,7 +18,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>                
+                <li><a class="current" href="contact.html">Contact Us</a></li>                
             </ul>
         </nav>
     </header>
@@ -26,7 +26,7 @@
     <main>
         <h1>Contact Us</h1>
             <p>White Water Rafting</p>
-            <p>Phone: 999-999-9999</p>
+            <a href="tel:9999999999">Phone: 999-999-9999</a>
             <address>
                 431 Chicago Creek<br>
                 Idaho Springs, CO 80452<br>
@@ -39,6 +39,45 @@
             <p>Email: <a href="mailto: whitewaterrafting@gmail.com">Click to send email</a>
             </p>
 
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                    <div class="form-item">
+                        <label for="fullname">Full Name:</label> 
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    
+                    <div class="form-item">
+                        <label for="email">Email: </label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>    
+            </fieldset>
+            
+            <fieldset>
+                <legend>Get In Touch</legend>
+                    <div class="form-item2">
+                        <form action="/action_page.php">
+                            <p>I need help with:</p>
+                            <input type="radio" id="general" name=" purpose" value="General">
+                            <label for="general">General Inquiry</label><br>
+                            <input type="radio" id="reservation" name=" purpose" value="Reservation">
+                            <label for="reservation">Reservation Questions</label><br>
+                            <input type="radio" id="website" name=" purpose" value="website">
+                            <label for="website">Website Suggestions</label>
+                    </div>
+                    
+                    
+                    <div class="form-item2">
+                        <input type="checkbox" id="subscribe" name="subscribe">                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                    <div class="feedback-label">
+                        <label for="feedback">Please leave us your message:</label> 
+                    </div>    
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Your message:"></textarea><br>
+                    
+                    <button type="submit">Send Message</button>
+            </fieldset>
+        </form>
     </main>
 
     <footer>
