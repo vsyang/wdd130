@@ -281,7 +281,6 @@ legend {
     text-align: left;
     display: inline-block; 
     width: 100px;
-    text-shadow: #0f084b;
     color: var(--accent1-color);
 }
 
