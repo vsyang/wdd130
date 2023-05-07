@@ -24,145 +24,108 @@
 	</header>
 
 	<main>
+		<div class="container1">
 			<h1>Contact Us</h1>
-				<div class="slidershow middle">
 
+			<div class="slidershow middle">
 					<div class="slides">
 						<input type="radio" name="r" id="r1" checked>
 						<input type="radio" name="r" id="r2">
 						<input type="radio" name="r" id="r3">
 						<input type="radio" name="r" id="r4">
 						<input type="radio" name="r" id="r5">
-						<div class="silde s1">
-								<figure>
-									<img src="images/solo-employee1.jpeg" alt="Manager">
-										<figcaption>
-												Manager Alex
-										</figcaption>
-								</figure>
-							</div>
-							<div id="slide-2">
-								<figure>
-									<img src="images/solo-employee2.jpeg" alt="Assistant manager">
-										<figcaption>
-												Manager Freddy
-										</figcaption>
-								</figure>
-							</div> 
-							<div id="slide-3">                
-								<figure>
-									<img src="images/solo-employee3.jpeg" alt="Front desk receptionist">
-										<figcaption>
-											Front Desk Receptionist Jules
-										</figcaption>
-								</figure>
-							</div>     
-							<div id="slide-4">                  
-								<figure>
-									<img src="images/dog-greeter1.jpeg" alt="greeter">
-										<figcaption>
-											Guest Greeter Maximus
-										</figcaption>
-								</figure> 
-							</div> 
-							<div id="slide-5">                 
-								<figure>
-									<img src="images/dog-greeter2.jpeg" alt="mini greeter">
-										<figcaption>
-											Guest Greeter Momo
-										</figcaption>
-								</figure> 
-							</div>
-						</div> 
-						
-						<div class="navigation2">
-							<label for="r1" class="bar"></label>
-							<label for="r2" class="bar"></label>
-							<label for="r3" class="bar"></label>
-							<label for="r4" class="bar"></label>
-							<label for="r5" class="bar"></label>
+						<div class="slide">
+							<img src="images/solo-employee1.jpeg" alt="Manager">
+							<img src="images/solo-employee2.jpeg" alt="Assistant manager">         
+							<img src="images/solo-employee3.jpeg" alt="Front desk receptionist">              
+							<img src="images/dog-greeter1.jpeg" alt="greeter">                
+							<img src="images/dog-greeter2.jpeg" alt="mini greeter">
 						</div>
-					</div>    
-				</div>            
+						
+					<div class="navigation2">
+						<label for="r1" class="bar">Manager</label>
+						<label for="r2" class="bar"></label>
+						<label for="r3" class="bar"></label>
+						<label for="r4" class="bar"></label>
+						<label for="r5" class="bar"></label>
+					</div>
+				</div>    
+			</div>            
 			
-        
-            
-            
-            
-            
-            
-            
-            
-                <p>White Water Rafting</p>
-            <a href="tel:9999999999">Phone: 999-999-9999</a>
-            <address>
-                431 Chicago Creek<br>
-                Idaho Springs, CO 80452<br>
-            </address>
-            <div class="maps">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8922.829726130405!2d-105.51866425670282!3d39.741354872024516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1683347475176!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+			<div class="contact">          
+				<p>White Water Rafting</p>
+				<a href="tel:9999999999">Phone: 999-999-9999</a>
+				<address>
+					431 Chicago Creek<br>
+					Idaho Springs, CO 80452<br>
+				</address>
+			</div>
+			
+			<div class="maps">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8922.829726130405!2d-105.51866425670282!3d39.741354872024516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1683347475176!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
 
-        <h2>Send Us a Message</h2>
-            <p>Email: <a href="mailto: whitewaterrafting@gmail.com">Click to send email</a>
-            </p>
+			<div class="communications">
+			<h2>Send Us a Message</h2>
+				<p>Email: <a href="mailto: whitewaterrafting@gmail.com">Click to send email</a>
+				</p>
+		</div>
+		<form>
+			<fieldset>
+					<legend>Contact Information</legend>
+						<div class="form-item">
+							<label for="fullname">Full Name:</label> 
+							<input type="text" id="fullname" name="fullname">
+						</div>
+						
+						<div class="form-item">
+							<label for="email">Email: </label>
+							<input type="email" id="useremail" name="useremail">
+						</div>    
+			</fieldset>
+		
+			<fieldset>
+				<legend>Get In Touch</legend>
+					<div class="form-item2">
+						<form action="/action_page.php">
+							<p>I need help with:</p>
+							<input type="radio" id="general" name=" purpose" value="General">
+							<label for="general">General Inquiry</label><br>
+							<input type="radio" id="reservation" name=" purpose" value="Reservation">
+							<label for="reservation">Reservation Questions</label><br>
+							<input type="radio" id="website" name=" purpose" value="website">
+							<label for="website">Website Suggestions</label>
+					</div>
+						
+					
+					<div class="form-item2">
+						<input type="checkbox" id="subscribe" name="subscribe">                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+					</div>
+					<div class="feedback-label">
+						<label for="feedback">Please leave us your message:</label> 
+					</div>    
+					<textarea id="feedback" name="feedback" rows="4" placeholder="Your message:"></textarea><br>
+					
+				<button type="submit">Send Message</button>
+			</fieldset>
+		</form>
+	</main>
 
-        <form>
-            <fieldset>
-                <legend>Contact Information</legend>
-                    <div class="form-item">
-                        <label for="fullname">Full Name:</label> 
-                        <input type="text" id="fullname" name="fullname">
-                    </div>
-                    
-                    <div class="form-item">
-                        <label for="email">Email: </label>
-                        <input type="email" id="useremail" name="useremail">
-                    </div>    
-            </fieldset>
-            
-            <fieldset>
-                <legend>Get In Touch</legend>
-                    <div class="form-item2">
-                        <form action="/action_page.php">
-                            <p>I need help with:</p>
-                            <input type="radio" id="general" name=" purpose" value="General">
-                            <label for="general">General Inquiry</label><br>
-                            <input type="radio" id="reservation" name=" purpose" value="Reservation">
-                            <label for="reservation">Reservation Questions</label><br>
-                            <input type="radio" id="website" name=" purpose" value="website">
-                            <label for="website">Website Suggestions</label>
-                    </div>
-                    
-                    
-                    <div class="form-item2">
-                        <input type="checkbox" id="subscribe" name="subscribe">                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                    </div>
-                    <div class="feedback-label">
-                        <label for="feedback">Please leave us your message:</label> 
-                    </div>    
-                    <textarea id="feedback" name="feedback" rows="4" placeholder="Your message:"></textarea><br>
-                    
-                    <button type="submit">Send Message</button>
-            </fieldset>
-        </form>
-    </main>
-
-    <footer>
-        <p>
-            ©️2023 🐶 White Water Rafting 🐶 Vanessa Yang 🐶 WDD 130
-        </p>
-        <nav class="sociallinks">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.webp" alt="Facebook">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.webp" alt="Twitter" width="65">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.webp" alt="Instagram">
-            </a>
-        </nav>
-    </footer>
+<footer>
+	<p>
+		©️2023 🐶 White Water Rafting 🐶 Vanessa Yang 🐶 WDD 130
+	</p>
+	<nav class="sociallinks">
+		<a href="https://facebook.com" target="_blank">
+			<img src="images/facebook.webp" alt="Facebook">
+		</a>
+		<a href="https://twitter.com" target="_blank">
+			<img src="images/twitter.webp" alt="Twitter" width="65">
+		</a>
+		<a href="https://instagram.com" target="_blank">
+			<img src="images/instagram.webp" alt="Instagram">
+		</a>
+	</nav>
+</footer>
 </body>
 </html>
