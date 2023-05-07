@@ -232,6 +232,8 @@ a:active {
 }
 
 .contact {
+    margin: 0;
+    padding: 0;
     grid-column: 1/2;
     grid-row: 3/4;
 }
@@ -241,3 +243,6 @@ a:active {
     grid-row: 3;
     justify-self: stretch;
 }
+
+/* don't forget to link wireframe to footer */
+/* style the form box and all that it entails*/
