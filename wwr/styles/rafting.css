@@ -80,7 +80,6 @@ main {
     position: relative;
     max-width: 1000px;  
     margin: 0;
-    /* start here to fix this section */
 }
 
 .hero h1 {
@@ -238,11 +237,101 @@ a:active {
     grid-row: 3/4;
 }
 
+.contact h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+address {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 .maps {
     grid-column: 2/3;
     grid-row: 3;
     justify-self: stretch;
 }
 
-/* don't forget to link wireframe to footer */
-/* style the form box and all that it entails*/
+fieldset, .form-item label, .form-item2 p, .form-item2 label, .feedback-label, .feedback-label label, .form-item2, .form-item, .form-item3 label, .form-item3{
+    background-color: #3e92cc;    
+}
+
+fieldset {
+    width: 700px;
+}
+
+.form-item, .form-item2 {
+    width: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    border: 2px solid ;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.form-item {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.form-item label {
+    text-align: left;
+    display: inline-block; 
+    width: 100px;
+    text-shadow: #0f084b;
+    color: var(--accent1-color);
+}
+
+#email, #fullname {
+    width: 300px;
+    border: 1px solid var(--accent1-color);
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+#general, #reservation, #website {
+    margin-left: 130px;
+}
+
+.form-item2 {
+    margin-left: 100px;
+    text-align: left;
+    
+}
+
+.form-item2 label{
+    margin-left: 10px;
+    padding: 0;
+    color: var(--accent1-color);
+}
+
+#feedback {
+    width: 500px;
+    height: 300px;
+}
+
+.feedback-label {
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    font-size: larger;    
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+}
+
+button {
+    margin: 1rem;
+    background-color: green;
+    color: var(--accent2-color);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    transition: 0.12s;
+}
