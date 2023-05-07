@@ -316,7 +316,13 @@ legend {
     position: relative;
     display: inline-block;
     width: 500px;
-    font-size: larger;    
+    font-size: larger;
+
+}
+
+.feedback-label label, .form-item3 label {
+    color: rgb(13, 42, 117);
+    text-shadow: -1px 1px 0 #0f084b;    
 }
 
 input[type="checkbox"] {
