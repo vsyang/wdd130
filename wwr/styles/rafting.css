@@ -198,83 +198,46 @@ a:active {
 .container1 h1 {
     grid-column: 1/3;
     grid-row: 1;
-    text-align: center;
 }
 
-.slidershow {
-    width: 500px;
-    height: 400px;
-    overflow: hidden;
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-
-.middle {
-    border: 2px solid white;
-}
-
-.navigation2 {
-    position: absolute;
-    bottom: -360px;
-    left: 326px;
-    transform: translateX(-50%);
-    display: flex;
-}
-
-.bar {
-    width: 55px;
-    height: 0.6px;
-    border: 2px solid #fff;
-    margin: 6px;
-    cursor: pointer;
-    transition: 0.4s;
-    align-items: center;
-    text-align: center;
-}
-
-.bar:hover {
-    background: #fff;
-}
-
-input[name="r"]{
-    position: absolute;
-    visibility: hidden;
+.employees {
+    width: 2000px;
+    height: 408px;
+    grid-column: 1/3;
+    grid-row: 2/4;
+    border: 2px solid var(--accent2-color);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .slides {
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
     display: flex;
+    align-items: flex-start;
 }
 
-.slide {
-    width: 20%;
-    transition: 0.6s;
-}
-
-.slide img {
+.slides img {
+    margin: 0;
+    padding: 0;
     width: 200px;
-    height: 300px;
+    height: 200px;
     object-fit: fill;
-}
-
-#r1:checked ~ .s1{
-    margin-left: 0;
-}
-#r2:checked ~ .s1{
-    margin-left: -20%;
-}
-#r3:checked ~ .s1{
-    margin-left: -40%;
-}
-#r4:checked ~ .s1{
-    margin-left: -60%;
-}
-#r5:checked ~ .s1{
-    margin-left: -80%;
+    flex-direction: row;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .contact {
     grid-column: 1/2;
     grid-row: 3/4;
+}
+
+.maps {
+    grid-column: 2/3;
+    grid-row: 3;
+    justify-self: stretch;
 }
