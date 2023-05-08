@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poltawski+Nowy:wght@500&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin', sans-serif;
+  font-size: 16pt;
+}
+
+header {
+  margin: 60px;
+  width: 700px;
+  font-family: 'Poltawski Nowy', serif;
+  font-weight: 900;
+  font-size: 40pt;
+  color: rgb(9, 19, 71);
+  border-bottom: 3px solid black;
+}
+
+.questions {
+  margin-left: 30px;
+
+}
+
+form {
+  border: 2px solid black;
+  margin: 30px;
+  padding: 60px;
+  width: 570px;
+  display: inline-block;
+  background-color: rgb(237, 237, 237);
+}
+
+label {
+  padding-bottom: 30px;
+  margin: 10px;
+}
+
+#q1, #q2, #q3, #q4 {
+  background-color: rgb(247, 228, 231);
+
+}
+
+#q1, #q2, #q3, #q4, button {
+  margin: 15px;
+  width: 500px;  
+}
+
+#q1, #q3, #q4, button{
+  height: 50px; 
+}
+
+button {
+  background-color: rgb(52, 39, 170);
+  color: white;
+}
+
+footer {
+  padding: 60px;
+}

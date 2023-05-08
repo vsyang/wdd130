@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz | Vanessa Yang</title>
+  <meta name="description" content="quiz using labels and different form elements">
+  <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+
+  <header>
+    Basic HTML and CSS Quiz    
+  </header>
+
+  <main>
+
+    <div class="questions">
+      <form>
+        <label for="q1">
+          1. What does the acronym CSS stand for?
+        </label><br>
+        <input
+         type="text" id="q1" name="q1"><br><br>
+        
+        <label for="q2">
+          2. What elements are required by all html documents? 
+        </label><br>
+        <textarea name="q2" id="q2" rows="6"></textarea><br><br>
+
+        <label for="q3">
+          3. What is a valid CSS comment tag?          
+        </label><br>
+        <select id="q3" name="q3">
+          <option selected value="" disabled>Please select one</option>
+          <option value=""> ### text here ### </option>
+          <option value=""> /* text here */ </option>
+          <option value=""> """ text here """ </option>
+        </select><br><br>
+
+        <label for="q4">
+          4. What is the left margin given the declaration of {margin: 10px 5px;}?</label><br>
+        <input type="number" id="q4" name="q4"><br><br>      
+        
+        <button>Submit Quiz</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>©2023 🐶 Quiz 🐶 Vanessa Yang 🐶 WDD130</footer>
+</body>
+
+</html>
