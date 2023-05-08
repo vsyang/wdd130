@@ -8,7 +8,7 @@
   font-size: 16pt;
 }
 
-header {
+h1{
   margin: 60px;
   width: 700px;
   font-family: 'Poltawski Nowy', serif;
@@ -38,7 +38,6 @@ label {
 
 #q1, #q2, #q3, #q4 {
   background-color: rgb(247, 228, 231);
-
 }
 
 #q1, #q2, #q3, #q4, button {
