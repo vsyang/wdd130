@@ -6,8 +6,8 @@
 --accent1-color: #0f084b;
 --accent2-color: #f7f7f2;
 
---heading-font: Sigmar, "Vina Sans", cursive;
---paragraph-font: Quicksand, Poppins, sans-serif;
+--heading-font: 'Sigmar', "Vina Sans", serif;
+--paragraph-font: 'Quicksand', 'Poppins', sans-serif;
 
 --nav-background-color: black;
 --nav-link-color: silver;
@@ -34,6 +34,11 @@ header {
     background-color: var(--accent2-color);
 }
 
+header div {
+    color: black;
+    font-size: 20px;
+    text-shadow: -1px -1px var(--primary-color);
+}
 p {
     padding: 25px;
 }
@@ -60,3 +65,31 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+.primary, .secondary, .accent1, .accent2 {
+    padding: 5px;
+    margin: 10px;
+}
+
+.primary {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+    font-family: var(--heading-font);
+    color: black;
+}
+
+.accent1{
+    background-color: var(--accent1-color);
+    border: 1px solid white;
+    font-family: 'Vina Sans', serif;
+    font-size: 25px;
+}
+
+.accent2{
+    background-color: var(--accent2-color);
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
