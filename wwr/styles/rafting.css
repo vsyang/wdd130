@@ -69,6 +69,8 @@ header img {
 h1, h2 {
     font-family: var(--heading-font);
     font-size: 30pt;
+    color: var(--secondary-color);
+    text-shadow: 2px 2px 2px black;
 }
 
 main {
@@ -89,7 +91,7 @@ main {
     transform: translate(-49%, -550%);
     z-index: 1;
     width: 1126px;
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, .5);
     margin: 0;
     padding: 0;
     border: 0;
