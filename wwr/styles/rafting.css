@@ -345,6 +345,8 @@ button {
 
 h4 {
     font-size: 20pt;
+    margin: 0;
+    padding: 0;    
 }
 
 .pricing {
@@ -356,27 +358,37 @@ h4 {
     border-left: 1px solid var(--accent2-color);
 }
 
-.pricing h4 {
-    margin: 0;
-    padding: 0;
+.description {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(4fr);
+    width: 1200px;
 }
 
-/* .card-description {
-    line-height: 140%;
-    position: absolute;
-    left: 20px;
-    right: 20px;
-    bottom: 80px;
+.boxes {
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 500px;
+    padding: 20px;
+    border: 1.5px solid var(--primary-color);
+
+}
+
+.boxes img {
+    align-self: center;
+    width: 300px;
+    height: 250px;
     margin: 0;
     padding: 0;
-    color: #666c74;
-    font-size: 14px;
-    opacity: 0;
-    -webkit-transition: opacity .2s,-webkit-transform .2s;
-    transition: opacity .2s,transform .2s;
-    -webkit-transition-delay: 0s;
-    transition-delay: 0s;
-    -webkit-transform: translateY(25px);
-    -ms-transform: translateY(25px);
-    transform: translateY(25px);
-} */
+    object-fit: cover;
+    
+}
+
+.boxes img:hover {
+    transition: auto;
+}
+
+.card-description {
+    margin: 0;
+}
