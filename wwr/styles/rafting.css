@@ -80,7 +80,7 @@ main {
 .hero {
     display: grid;
     position: relative;
-    max-width: 1000px;  
+    max-width: 1250px;  
     margin: 0;
 }
 
@@ -88,11 +88,11 @@ main {
     position: absolute;    
     top: 50%;
     left: 50%;
-    transform: translate(-49%, -550%);
+    transform: translate(-51%, -550%);
     z-index: 1;
-    width: 1126px;
+    width: 1250px;
     background-color: rgba(0, 0, 0, .5);
-    margin: 0;
+    margin: 10px;
     padding: 0;
     border: 0;
 }
@@ -341,4 +341,24 @@ button {
     padding: 0.75rem;
     font-size: 1.2rem;
     transition: 0.12s;
+}
+
+.card-description {
+    line-height: 140%;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 80px;
+    margin: 0;
+    padding: 0;
+    color: #666c74;
+    font-size: 14px;
+    opacity: 0;
+    -webkit-transition: opacity .2s,-webkit-transform .2s;
+    transition: opacity .2s,transform .2s;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    transform: translateY(25px);
 }
