@@ -6,13 +6,13 @@
     --accent1-color: #0f084b;
     --accent2-color: #f7f7f2;
     
-    --heading-font: Sigmar, "Vina Sans", cursive;
-    --paragraph-font: Quicksand, Poppins, sans-serif;
+    --heading-font: 'Sigmar', 'Vina Sans', serif;
+    --paragraph-font: 'Quicksand', 'Poppins', sans-serif;
     
     --nav-background-color: black;
     --nav-link-color: silver;
     --nav-hover-link-color: darkgray;
-    --nav-hover-background-color: pink;
+    --nav-hover-background-color: lightblue;
 }    
 
 * {
@@ -56,7 +56,7 @@ header img {
 .navigation a {
     display: block;
     margin: 0;
-    transition: 0.15s;
+    transition: 0.15s ease-in-out;
 }
 
 .navigation a:hover {
@@ -366,7 +366,7 @@ h4 {
 .description {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(4fr);
+    grid-template-rows: 50% 50%;
     width: 1200px;
 }
 
@@ -388,10 +388,6 @@ h4 {
     padding: 0;
     object-fit: cover;
     
-}
-
-.boxes img:hover {
-    transition: auto;
 }
 
 .card-description {
