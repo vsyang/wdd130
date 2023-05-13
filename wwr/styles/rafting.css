@@ -66,7 +66,7 @@ header img {
     text-decoration: underline;
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5 {
     font-family: var(--heading-font);
     font-size: 30pt;
     color: var(--secondary-color);
@@ -343,7 +343,25 @@ button {
     transition: 0.12s;
 }
 
-.card-description {
+h4 {
+    font-size: 20pt;
+}
+
+.pricing {
+    display: block;
+    float: right;
+    width: 250px;
+    margin-top: 0;
+    padding-top: 0;
+    border-left: 1px solid var(--accent2-color);
+}
+
+.pricing h4 {
+    margin: 0;
+    padding: 0;
+}
+
+/* .card-description {
     line-height: 140%;
     position: absolute;
     left: 20px;
@@ -361,4 +379,4 @@ button {
     -webkit-transform: translateY(25px);
     -ms-transform: translateY(25px);
     transform: translateY(25px);
-}
+} */
