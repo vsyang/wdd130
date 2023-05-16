@@ -407,6 +407,7 @@ h4 {
     font: bold;
     font-family: 'Vina Sans', serif;
     letter-spacing: 1em;
+    text-shadow: 1px 1px gold;
 }
 
 @keyframes exanimations {
