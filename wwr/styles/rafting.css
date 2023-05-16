@@ -393,3 +393,26 @@ h4 {
 .card-description {
     margin: 0;
 }
+
+.animations {
+    overflow: hidden;
+    font-size: 40px;
+    animation-duration: 20s;
+    animation-name: exanimations;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font: bold;
+    font-family: 'Vina Sans', serif;
+    letter-spacing: 1em;
+}
+
+@keyframes exanimations {
+    0% {color: #c2e7d9;}
+    25% {color: rgb(14, 244, 14)}
+    50% {color: aqua;}
+    75% {color: yellow}
+    100% {color: pink;}
+}
