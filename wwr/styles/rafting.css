@@ -397,7 +397,7 @@ h4 {
 .animations {
     overflow: hidden;
     font-size: 40px;
-    animation-duration: 20s;
+    animation-duration: 8s;
     animation-name: exanimations;
     animation-iteration-count: infinite;
     animation-delay: 1s;
