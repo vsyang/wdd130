@@ -396,7 +396,7 @@ h4 {
 
 .animations {
     overflow: hidden;
-    font-size: 40px;
+    font-size: 35px;
     animation-duration: 8s;
     animation-name: exanimations;
     animation-iteration-count: infinite;
@@ -407,6 +407,7 @@ h4 {
     font: bold;
     font-family: 'Vina Sans', serif;
     letter-spacing: 1em;
+    word-spacing: 1em;
     text-shadow: 1px 1px gold;
 }
 
