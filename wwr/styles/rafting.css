@@ -45,7 +45,7 @@ header img {
     border-radius: 55%;
 }
 
-.navigation {
+nav, .navigation {
     display: flex;
     list-style: none;
     color: var(--nav-link-color);
@@ -53,7 +53,7 @@ header img {
     background: none;
 }
 
-.navigation a {
+nav, .navigation a {
     display: block;
     margin: 0;
     transition: 0.15s ease-in-out;
