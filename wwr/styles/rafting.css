@@ -68,7 +68,6 @@ nav, .navigation a {
 
 h1, h2, h3, h4, h5 {
     font-family: var(--heading-font);
-    font-size: 30pt;
     color: var(--secondary-color);
     text-shadow: 2px 2px 2px black;
 }
@@ -91,10 +90,12 @@ main {
     transform: translate(-51%, -550%);
     z-index: 1;
     width: 1250px;
+    height: 70px;
     background-color: rgba(0, 0, 0, .5);
     margin: 10px;
     padding: 0;
     border: 0;
+    font-size: 30pt;
 }
 
 .hero img {
@@ -353,7 +354,6 @@ button {
 }
 
 h4 {
-    font-size: 20pt;
     margin: 0;
     padding: 0;    
 }
