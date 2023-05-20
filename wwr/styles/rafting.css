@@ -332,6 +332,10 @@ legend {
     text-shadow: -1px 1px 0 #0f084b;    
 }
 
+.form-item3 label{
+    font-size: 18pt;
+}
+
 input[type="checkbox"] {
     width: 22px;
     height: 22px;
@@ -443,7 +447,7 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: opacity 0.3s ease;
+    transition: opacity .7s ease;
 }
   
 .entice:hover .image-overlay {
