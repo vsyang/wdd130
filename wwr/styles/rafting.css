@@ -134,10 +134,14 @@ article p{
 
 .history {
     display: grid;
-    gap: 20px;
     margin: 2em;
     padding: 1em;
     background-color: var(--accent1-color);
+}
+
+.history-banner {
+    display: flex;
+    text-align: justify;
 }
 
 .adventure {
@@ -440,7 +444,6 @@ h4 {
     width: 100%;
     height: 100%;
     opacity: 0;
-    /* background-color: rgba(0, 0, 0, 0.5); */
     color: #fff;
     display: flex;
     flex-direction: column;
