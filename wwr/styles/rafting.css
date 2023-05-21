@@ -69,6 +69,8 @@ h1, h2, h3, h4, h5 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
     text-shadow: 2px 2px 2px black;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -356,16 +358,13 @@ button {
     transition: 0.12s;
 }
 
-h4 {
-    margin: 0;
-    padding: 0;    
-}
-
 .pricing {
     display: block;
     float: right;
-    width: 250px;
+    width: 260px;
+    height: 360px;
     margin-top: 0;
+    margin-left: 0;
     padding-top: 0;
     border-left: 1px solid var(--accent2-color);
 }
