@@ -63,7 +63,6 @@ nav, .navigation a {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
     font-weight: 700;
-    text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5 {
